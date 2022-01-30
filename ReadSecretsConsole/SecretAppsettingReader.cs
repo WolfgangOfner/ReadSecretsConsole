@@ -1,9 +1,8 @@
-﻿using System;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 
 namespace ReadSecretsConsole;
 
-public class SecretAppsettingReader 
+public class SecretAppsettingReader
 {
     public T ReadSection<T>(string sectionName)
     {
